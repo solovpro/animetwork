@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  flex-flow: column;
+  width: 150px;
+  height: 600px;
+  color: #000;
+  font-weight: 500;
+
+  &Block {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 0 10px;
+    &:hover {
+      opacity: .6;
+      background-color: #7B68EE;
+    }
+
+    div {
+      margin: 0 0 0 5px;
+    }
+  }
+
+  &Profile {
+
+  }
+
+  &Messages {
+
+  }
+
+  &Friends {
+
+  }
+
+  &News {
+
+  }
+
+  &Music {
+
+  }
+
+  &Exit {
+    margin: 50px 0 0 0;
+  }
+}

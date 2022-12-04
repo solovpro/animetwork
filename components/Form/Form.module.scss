@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin: 0 auto;
+  &Arrow {
+    cursor: pointer;
+  }
+  &Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0;
+  }
+  &Form, &Registration {
+    width: 50%;
+  }
+}
